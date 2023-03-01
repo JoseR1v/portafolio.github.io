@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">JOSÉ MANUEL</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img"></div>
+            <h1>JOSÉ MANUEL</h1>
+            <h2>RIVERA SAN AGUSTÍN</h2>
+            <div class="cargo">
+                <h3>WEB DEVELOPER</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy José Manuel.</span> Me encuentro estudiando el último año de la licenciatura en Matemáticas  y me gustaría adquirir mayor conocimiento en lenguajes de programación orientados en páginas web, y aplicaciones móviles. Durante los últimos 2 años laborando en el sector de TI he logrado adquirir excelentes habilidades de análisis, planificación y trabajo en equipo.</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col datos-personales">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            16/09/1997
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            55 2962 3821
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            joserivera.sa@outlook.com
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span class="back">FREELANCE</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes juegos">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes musica">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes viajes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="interes android">
+                            <i class="fa-brands fa-android"></i>
+                            <span>Android</span>
+                        </div>
+                        <div class="interes deporte">
+                            <i class="fa-solid fa-futbol"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="interes ciencia">
+                            <i class="fa-solid fa-microscope"></i>
+                            <span>CIENCIA</span>
+                        </div>
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+            <a target="_blank" href="download/CV José Manuel Rivera San Agustín.pdf" download="CV José Manuel Rivera San Agustín.pdf">
+                Descargar CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </a>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Wordpress</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>React</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>45%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Angular</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>25%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Ionic</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>45%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Responsabilidad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Resolución de problemas</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Ing. Matemática</h4>
+                        <span class="casa">Instituto Politécnico Nacional</span>
+                        <span class="fecha">2016 - 2021</span>
+                        <p>Durante el tiempo que estudié en esta carrera desarrollé habilidades lógicas para la solución de problemas utilizando algoritmos, también tuve un enfoque en el área de finanzas.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Certificación SC-900 Fundamentos de Ciberseguridad</h4>
+                        <span class="casa">Microsoft</span>
+                        <span class="fecha">2021</span>
+                        <p>Esta certificación me proporcionó conocimientos de nivel básico sobre los conceptos de seguridad, cumplimiento e identidad y las soluciones de Microsoft relacionadas basadas en la nube.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Responsive Web Design</h4>
+                        <span class="casa">freeCodeCamp.org</span>
+                        <span class="fecha">2021</span>
+                        <p> Aprendí los lenguajes que se utilizan para construir páginas web: HTML para el contenido, y CSS para el diseño.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>JavaScript Algorithms</h4>
+                        <span class="casa">freeCodeCamp.org</span>
+                        <span class="fecha">2021</span>
+                        <p> Este cursos me aprenderí conceptos fundamentales de programación en JavaScript. </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>TypeScript: Tu completa guía y manual de mano</h4>
+                        <span class="casa">Udemy</span>
+                        <span class="fecha">2022</span>
+                        <p> Este cursos me ayudó a tener una base sólida de TypeScript, así como saber utilizarlo para mejorar la manera de programar en la web.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Angular: De cero a experto</h4>
+                        <span class="casa">Udemy</span>
+                        <span class="fecha">2022</span>
+                        <p> Este cursos me ayudó a conocer Angular profundamernte, y a seguir estándares y buenas prácticas framework. Así mismo, aprindí otros temas relacionados en desarrollo de aplicaciones con Angular.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>  
+                    <div class="item izq">
+                        <h4>React: De cero a experto</h4>
+                        <span class="casa">Udemy</span>
+                        <span class="fecha">2022</span>
+                        <p> Este cursos me ayudó a conocer React profundamernte, y a seguir estándares y buenas prácticas framework. Así mismo, aprindí otros temas relacionados en desarrollo de aplicaciones con Angular.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>         
+                    <div class="item izq">
+                        <h4>Lic. en Matemáticas</h4>
+                        <span class="casa">Universidad Autónoma Metropolitana</span>
+                        <span class="fecha">2019 - 2022</span>
+                        <p>El objetivo en esta carrera es mejorar mis habilizades lógicas y amplicar mi conocimiento sobre temas de desarrollo web.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia laboral</h3>
+                    <div class="item der">
+                        <h4>Docente de Matemáticas</h4>
+                        <span class="casa">Instituto de Educación Científica Fermat</span>
+                        <span class="fecha">Marzo 2017 - Enero 2018</span>
+                        <p>Como docente una de las actividades que realicé fue impartir clases lo cual me permitió mejorar mis habilidades de comunicación y liderazgo, también elaboré de temarios con lo cuál reforzaba mis habilidades de planeación y organización.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Coordinador General</h4>
+                        <span class="casa">Instituto de Educación Científica Fermat</span>
+                        <span class="fecha">Enero 2018 - Octubre 2019</span>
+                        <p>Como coordinador mis resposabilidades eran planear y supervisar cursos con lo cual mis habilidades de organización y liderazgo crecieron considerablemente, del mismo modos durante este tiempo el trabajo en equipo fue escencial para poder cumplir mis metas en esta empresa.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Director General</h4>
+                        <span class="casa">Colegio Laplace de Especialización y Orientación Educativa</span>
+                        <span class="fecha">Octubre 2019 – Agosto 2021</span>
+                        <p>Como director en esta empresa tuve varias responsabilidades como distribución de tareas, supervisión de proyectos y gestión financieras.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Web Developer</h4>
+                        <span class="casa">Freelance</span>
+                        <span class="fecha">Agosto 2022 - Enero 2023</span>
+                        <p>Durante esta etapa he concentrado mi tiempo y mis habilidades en crear páginas web y apps móviles, e iniciar una carrera como desarrollador web. </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto p1">
+                    <div class="overlay">
+                        <h3>Soul Films</h3>
+                        <p>Página Web</p>
+                    </div>
+                </div>
+                <div class="proyecto p2">
+                    <a href="https://roseslandusa.com/" target="_blank">
+                    <div class="overlay">
+                        <h3>ROSESLAND</h3>
+                        <p>Página Web</p>
+                    </div>
+                    </a>
+                </div>
+                <div class="proyecto p3">
+                    <a href="http://flowermarketmx.com/" target="_blank">
+                        <div class="overlay">
+                            <h3>Flower Market</h3>
+                            <p>Página Web</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="proyecto p4">
+                    <div class="overlay">
+                        <h3>Purificadora</h3>
+                        <p>App Android</p>
+                    </div>
+                </div>
+                <div class="proyecto p5">
+                    <img src="img/p5.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto p6">
+                    <img src="img/p6.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Nombre">
+                    <input type="text" placeholder="Teléfono">
+                    <input type="text" placeholder="Email">
+                    <input type="text" placeholder="Asunto">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        <p>Enviar Mensaje</p><i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
