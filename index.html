@@ -834,9 +834,35 @@ footer .arriba{
         width: 80%;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
-        grid-template-areas: "juegos musica viajar" "android deporte ciencia";
+        grid-template-areas: "juegos musica" "viajar android" "deporte ciencia";
         grid-gap: 1em;
         height: 100%;
+    }
+
+    .juegos {
+        grid-area: juegos;
+        width: 100%;
+        height: 100%;
+    }
+
+    .musica {
+        grid-area: musica;
+    }
+
+    .viajes {
+        grid-area: viajar;    
+    }
+
+    .android {
+        grid-area: android;    
+    }
+
+    .deporte {
+        grid-area: deporte;    
+    }
+
+    .ciencia {
+        grid-area: ciencia;    
     }
 
 }
